@@ -1,0 +1,19 @@
+
+README
+
+Steps to test an input file for meal or no meal prediction
+a) Place the file to be predicted as meal and no meal in the same folder as a .csv file
+b) Open and load all the submitted files in MATLAB
+c) In the command window execute the function file PredictMealOrNoMeal.m by writing PredictMealOrNoMeal('inputfilename.csv');
+d) This will create an output.csv which will contain all the class labels from the four models.
+
+Steps to generate models from the training data
+a) Open and load all the submitted files along with the given meal and no meal data (which is not included in submission) in MATLAB.
+b) Run the takesTrainingDataAndGeneratesModel.m file to generate the models.
+c) This generates four .mat files which are the trained models along with EigenVectorsTop5.csv which is required as an input to predict meal and no meal data. 
+
+TEAM MEMBERS
+Alsha Samantaray (1215268600)
+Lehar Bhatt      (1215417996)
+Neeraj Varshney  (1217251009)
+Weichi Zhao      (1209692845)
